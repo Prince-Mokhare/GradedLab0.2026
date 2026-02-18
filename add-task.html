@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add-Task</title>
+</head>
+<body>
+    
+<a href="#main-content">Skip to content</a>
+
+<header>
+    <h1>Taskboard</h1>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="add-task.html">Add Task</a> |
+        <a href="about.html">About</a>
+    </nav>
+</header>
+
+<main id="main-content">
+    <section>
+        <h2>Add a New Task</h2>
+
+        <form>
+            <div>
+                <label for="task-title">Task Title:</label>
+                <input type="text" id="task-title" name="task-title" required>
+            </div>
+
+            <div>
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+            </div>
+
+            <div>
+                <label for="due-date">Due Date:</label>
+                <input type="date" id="due-date" name="due-date" required>
+            </div>
+
+            <button type="submit">Add Task</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>Taskboard Project</p>
+</footer>
+</body>
+</html>
